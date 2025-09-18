@@ -1,0 +1,64 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Test images and videos
+test_images/
+test_videos/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+!data/**/*.jpg
+!data/**/*.jpeg
+!data/**/*.png
+
+# Logs and databases
+*.log
+*.sqlite
+logs/
+
+# Temporary files
+.tmp/
+temp/
+
+# Build artifacts
+arduino/build/
+*.o
+*.hex
+*.bin
+
+# Environment variables
+.env
+
+# Training data (large files)
+*.weights
+*.caffemodel
+*.pb
+# Keep the cascade xml files
+!*.xml
